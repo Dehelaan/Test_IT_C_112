@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product Listings</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="product">
+        <img src="sample-product.jpg" alt="Sample Product">
+        <h2>Sample Product</h2>
+        <p>Rs. 15</p>
+        <button onclick="addToCart(15)">Buy Now</button>
+        <button>View Details</button>
+    </div>
+    <div class="cart">
+        <p>Items in cart: <span id="cart-count">0</span></p>
+        <p>Total Price: Rs. <span id="total-price">0</span></p>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
