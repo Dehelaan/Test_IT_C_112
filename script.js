@@ -1,7 +1,7 @@
 document.getElementById('quantity').addEventListener('input', updateTotalPrice);
 
 function updateTotalPrice() {
-    const price = 15;
+    const price = $599;
     const quantity = document.getElementById('quantity').value;
     const totalPrice = price * quantity;
     document.getElementById('total-price').innerText = totalPrice;
