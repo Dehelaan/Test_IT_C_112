@@ -10,5 +10,5 @@ function updateTotalPrice() {
 function buyNow() {
     const quantity = document.getElementById('quantity').value;
     const totalPrice = document.getElementById('total-price').innerText;
-    alert(`You added ${quantity} items to your cart for Rs. ${totalPrice}`);
+    alert(`You added ${quantity} items to your cart for $ ${totalPrice}`);
 }
